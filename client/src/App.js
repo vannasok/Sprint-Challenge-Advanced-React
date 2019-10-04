@@ -1,7 +1,8 @@
 import React from 'react';
 import axios from 'axios';
-import darkButton from './darkButton';
+
 import './App.css';
+import Card from './Card';
 
 class App extends React.Component {
   constructor() {
@@ -29,8 +30,9 @@ class App extends React.Component {
       <div className='App'>
         <div>
           <h1>Women's World Cup</h1>
-          <darkButton />
+          <button>Dark Mode</button>
         </div>
+        <Card />
       </div>
     );
   }
